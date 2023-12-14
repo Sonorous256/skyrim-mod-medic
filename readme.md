@@ -1,3 +1,4 @@
+![logo](https://github.com/Sonorous256/skyrim-mod-medic/blob/master/logo.webp)
 
 # "Mod Medic" (working title) Skyrim mod auditioning, inspecting and troubleshooting
 
