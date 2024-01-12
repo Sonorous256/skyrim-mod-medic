@@ -48,7 +48,7 @@ This is the kind of project that needs to grow over time.
 The exact future may depend on what is most needed by users.
 But it might include things like lighting modes, support for different types of data -- sounds, animation, navmesh, weather, lods -- or anything else that might be possible with this tech.
 
-Feature requests may be voted on the near future. Join our discord (https://discord.gg/VtuMeRrX) if you want to contribute.
+Feature requests may be voted on the near future. Join our discord ([https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)) if you want to contribute.
 
 Though this project contains some elements of things like record viewers, nif tools, bsa browsers, etc, it's not really intended as a replacement for existing tools. The main focus is features that are unique to this project, such as understanding the makeup of mods and previewing compound objects.
 
