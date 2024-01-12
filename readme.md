@@ -16,7 +16,7 @@ This is an early build -- jankiness is expected. You will probably encounter bug
 The Skyrim ecosystem has gotten so broad (and the underlying Skyrim architectures are so odd/janky themselves) that it may take some time before everything can work perfectly for everyone.
 
 If you run into problems with specific mods (or just hit some kind of blocker), stop by:
-* Discord: https://discord.gg/VtuMeRrX
+* Discord: [https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)
 * Nexus: https://www.nexusmods.com/skyrimspecialedition/mods/108357
 
 ## Installation
@@ -66,7 +66,7 @@ See my other tool, "Xenoviewer" for Starfield on Nexus.
 ## Links
 
 Nexus Mods: https://www.nexusmods.com/skyrimspecialedition/mods/108357
-Discord: https://discord.gg/VtuMeRrX
+Discord: [https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)
 Github mirror: https://github.com/Sonorous256/skyrim-mod-medic
 
 This software will be distributed via the Nexus and Github links above. If you did not receive this file from one of those two locations, your distribution may be compromised and dangerous.
