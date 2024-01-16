@@ -16,7 +16,7 @@ This is an early build -- jankiness is expected. You will probably encounter bug
 The Skyrim ecosystem has gotten so broad (and the underlying Skyrim architectures are so odd/janky themselves) that it may take some time before everything can work perfectly for everyone.
 
 If you run into problems with specific mods (or just hit some kind of blocker), stop by:
-* Discord: [https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)
+* Discord: [https://discord.gg/hJyzCBJwTE](https://discord.gg/hJyzCBJwTE)
 * Nexus: https://www.nexusmods.com/skyrimspecialedition/mods/108357
 
 ## Installation
@@ -48,7 +48,7 @@ This is the kind of project that needs to grow over time.
 The exact future may depend on what is most needed by users.
 But it might include things like lighting modes, support for different types of data -- sounds, animation, navmesh, weather, lods -- or anything else that might be possible with this tech.
 
-Feature requests may be voted on the near future. Join our discord ([https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)) if you want to contribute.
+Feature requests may be voted on the near future. Join our discord ([https://discord.gg/hJyzCBJwTE](https://discord.gg/hJyzCBJwTE)) if you want to contribute.
 
 Though this project contains some elements of things like record viewers, nif tools, bsa browsers, etc, it's not really intended as a replacement for existing tools. The main focus is features that are unique to this project, such as understanding the makeup of mods and previewing compound objects.
 
@@ -66,7 +66,7 @@ See my other tool, "Xenoviewer" for Starfield on Nexus.
 ## Links
 
 Nexus Mods: https://www.nexusmods.com/skyrimspecialedition/mods/108357
-Discord: [https://discord.gg/xpbYKman](https://discord.gg/xpbYKman)
+Discord: [https://discord.gg/hJyzCBJwTE](https://discord.gg/hJyzCBJwTE)
 Github mirror: https://github.com/Sonorous256/skyrim-mod-medic
 
 This software will be distributed via the Nexus and Github links above. If you did not receive this file from one of those two locations, your distribution may be compromised and dangerous.
