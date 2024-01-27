@@ -2,8 +2,6 @@
 
 # "Mod Medic" Skyrim mod troubleshooting, investigation and auditioning
 
-Build: 0.2-beta
-
 * View files and records within skyrim mods, with 3D preview and detailed hex view
 * Investigate how mod files overwrite each other and interact -- find conflicts and unwanted overwrites
 * Audition or compare mods by seeing the effect of enabling/disabling a mod instantly in 3D preview
@@ -52,16 +50,24 @@ Feature requests may be voted on the near future. Join our discord ([https://dis
 
 Though this project contains some elements of things like record viewers, nif tools, bsa browsers, etc, it's not really intended as a replacement for existing tools. The main focus is features that are unique to this project, such as understanding the makeup of mods and previewing compound objects.
 
-## Notes
+## Command line options
 
-Only tested in english, with Skyrim AE and SE for Steam and on a recent version of Windows and on a limited set of GPUs. It should work more broadly, but I'm not sure about language support.
+This is a GUI tool, but there are command line options to assist with hardware compatibility and integration with scripts and other tools.
 
-** Don't run from within Mod Organizer 2 **! Just run like a normal program.
-Also, probably don't install into your Skyrim directory.
+| Flag | Description |
+| ---- | ----------- |
+| --hcm | Force hardware compatibility mode (usually only required for integrated GPUs) |
+| --skipcfg | Use the same configuration options as last time, and skip the configuration dialog |
+| --skipgputweakcheck | Don't look for Asus "GPU Tweak" software |
+| --version / -v | Write app version to standard out and exit |
+| --help / -h | This message | 
+|||
+| --skyrimCode (uint32) |  Find record by the id, as it would appear in the game. The top 8 bits are related to table id. Prefix hex with 0x |
+| --recordId (uint32) | Find record by id. Can be combined with "tableName" |
+| --tableName (string) | Record table to search in. Use filename with extension, but no path. Eg, "dawnguard.esm" |
+| --editorId (string) | Find record by "editor id" (as seen in Creation Kit) |
 
-Visual effects that are very specific to Skyrim -- water, fire, light rays, etc -- generally aren't supported. They require very special case emulation and so have less favorable effort/usefulness tradeoff.
-
-See my other tool, "Xenoviewer" for Starfield on Nexus.
+So, for example, if you want to jump to a specific cell/actor, you can use something like "--editorId Eola --skipcfg" or "--tableName skyrim.esm --recordId 0x0001990f --skipcfg"
 
 ## Links
 
@@ -79,7 +85,7 @@ This software will be distributed via the Nexus and Github links above. If you d
 - Some armor character parts may not appear. This is usually because the nif file or TXST record refers to a texture that doesn't exist
 - Some characters may not be wearing their gear. This is because in some cases the "Worn Armor" attribute has the characters actual gear and "Default Outfit" has either nothing or body parts -- and in other cases it is flipped. I haven't quite figured out how Skyrim handles these attributes exactly yet.
 - When using Vortex you and turn .esp/.esl/.esm files on and off -- but when using Mod Organizer 2, you instead turn entire mods on and off. In short, things just work better with Mod Organizer 2
-- Some things (like textures, nif files, etc) may hot-reload if they change on disk. But at the moment there are problems sometimes when changing the options in MO2 while Mod Medic is open
+- Some things (like textures, nif files, etc) may hot-reload if they change on disk.
 - On a high-res screen the text will ve very small. This is because the Windows GUI "Scale" setting is not supported (sorry, it's honestly a real hassle!)
 - Many characters will have a neck gap. This is because the character "weight" value isn't supported for the body yet, but the pregenerated heads already have it built in.
 - the camera is often at an awkward spot when you load a new cell -- often pressing ctrl+R will look, but sometimes you have to search around
